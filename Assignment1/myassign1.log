@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  27 APR 2023 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  28 APR 2023 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,13 +1278,8 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 300--309
-
- []
-
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
+/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
@@ -1299,12 +1294,12 @@ Here is how much of TeX's memory you used:
  49720 multiletter control sequences out of 15000+600000
  570594 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,1177b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,96p,1177b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr
 /local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on myassign1.pdf (1 page, 32650 bytes).
+Output written on myassign1.pdf (1 page, 32663 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
