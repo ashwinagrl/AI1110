@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  30 APR 2023 03:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  30 APR 2023 03:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,7 +1278,7 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (7.8749pt too wide) detected at line 314
+Overfull \hbox (7.8749pt too wide) detected at line 313
 []
  []
 
@@ -1307,7 +1307,7 @@ texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on myassignment.pdf (1 page, 47874 bytes).
+Output written on myassignment.pdf (1 page, 47879 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
