@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  28 APR 2023 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.24)  30 APR 2023 03:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**myassign1.tex
-(./myassign1.tex
+**myassignment.tex
+(./myassignment.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1110,8 +1110,8 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(./myassign1.aux)
-\openout1 = `myassign1.aux'.
+(./myassignment.aux)
+\openout1 = `myassignment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 105.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
@@ -1238,9 +1238,9 @@ Package gensymb Info: Using \textohm for \ohm on input line 105.
 Package gensymb Info: Using \textmu for \micro on input line 105.
 Package hyperref Info: Link coloring OFF on input line 105.
 
-(./myassign1.out) (./myassign1.out)
+(./myassignment.out) (./myassignment.out)
 \@outlinefile=\write4
-\openout4 = `myassign1.out'.
+\openout4 = `myassignment.out'.
 
 \c@theorem=\count341
 \c@problem=\count342
@@ -1248,61 +1248,69 @@ Package hyperref Info: Link coloring OFF on input line 105.
 \c@lemma=\count344
 \c@example=\count345
 \c@rem=\count346
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 296.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+Overfull \hbox (7.8749pt too wide) detected at line 314
+[]
+ []
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
-] (./myassign1.aux)
-Package rerunfilecheck Info: File `myassign1.out' has not changed.
+] (./myassignment.aux)
+Package rerunfilecheck Info: File `myassignment.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29892 strings out of 476025
- 592073 string characters out of 5790017
- 1855388 words of memory out of 5000000
- 49720 multiletter control sequences out of 15000+600000
- 570594 words of font info for 147 fonts, out of 8000000 for 9000
+ 29896 strings out of 476025
+ 592086 string characters out of 5790017
+ 1864388 words of memory out of 5000000
+ 49716 multiletter control sequences out of 15000+600000
+ 571430 words of font info for 148 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,14n,96p,1177b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on myassign1.pdf (1 page, 32663 bytes).
+ 101i,16n,96p,1180b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on myassignment.pdf (1 page, 47874 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
