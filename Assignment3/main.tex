@@ -299,55 +299,52 @@ CS22BTECH11009
  number. Therefore, the probability of getting an odd number is $\frac{1}{2} $.
  \end{enumerate}
   \textbf{Solution:}
+  Let us define the random variables X and Y: 
+ 
+   \begin{table}[h]
+    \label{table : 0}
+    \input{tables/table.tex}
+   \end{table}
+     
+PMF of X:
+\begin{align} 
+  X &\sim Bin(n,p)
+\end{align} 
+
+\begin{align}  
+  \pr{X = i} = \binom{n}{i} \times p^i \times (1-p)^{n-i} = \binom{2}{i} \times \frac{1}{2^2}
+\end{align}	
+
+PMF OF Y:
+\begin{align}
+  \pr{X=i} = \frac{1}{6} ,i=1,2,3,4,5,6
+\end{align}
+   
     \begin{enumerate}
-      \item Let, $X$ be a random variable, denoting the number of heads in two coin tosses.
-      \begin{align} 
-        X &\sim Bin(n,p)
-      \end{align}	   
-      where,$p$ be the probability of getting head on one toss of coin.
-      $n$ is the number of coins tossed.
-      \begin{align}
-        \implies p &= \frac{1}{2}\\ 
-        \implies n &= 2 
-      \end{align}
-      \begin{align}  
-        \pr{X = i} = \binom{n}{i} \times p^i \times (1-p)^{n-i} 
-      \end{align}	
-      \begin{align}
-        \therefore \pr{X=i} = \binom{2}{i} \times \frac{1}{2^2}
-      \end{align}
-      There are 3 possible outcomes i.e $X=0,1,2$
+      \item There are 3 possible outcomes i.e $X=0,1,2$
       For 1st outcome (Two Heads) X=2,
       \begin{align}
-                \pr{X=2} = \binom{2}{2} \times \frac{1}{2^2} = \frac{1}{4} \label{eq : 6}
+        \label{eq : 6}
+        \pr{X=2} = \binom{2}{2} \times \frac{1}{2^2} = \frac{1}{4}
       \end{align}
 
       For 2nd outcome(Two Tails) X=0,
       \begin{align}
-        \pr{X=2} = \binom{2}{0} \times \frac{1}{2^2} = \frac{1}{4}\label{eq : 7}
+        \label{eq : 7}
+        \pr{X=2} = \binom{2}{0} \times \frac{1}{2^2} = \frac{1}{4}
       \end{align}
 
       For 3rd outcome (One Head and One Tail) X=1,
       \begin{align}
-        \pr{X=1} = \binom{2}{1} \times \frac{1}{2^2} = 2 \times \frac{1}{4} = \frac{1}{2} \label{eq : 8}
+        \label{eq : 8}
+        \pr{X=1} = \binom{2}{1} \times \frac{1}{2^2} = 2 \times \frac{1}{4} = \frac{1}{2}
       \end{align}
       From \eqref{eq : 6} , \eqref{eq : 7} and \eqref{eq : 8} , the probabilities are not equal to $\frac{1}{3}$.
       Hence, the statement is false.
       \item 
-      Let $Y$ be a random variable.
-      \begin{align}\nonumber
-        Y =
-          \begin{cases}
-            1, & \text{if an odd number comes on the die}\\ 
-            0, & \text{if an even number comes on the die}
-          \end{cases}
-      \end{align}
-      There are 2 possible outcomes i.e $Y=0,1$
+      There are 2 possible outcomes i.e Y=Odd,Even
       \begin{align}
-        \pr{Y=1} = \frac{\text{Odd Numbers on Die}}{\text{Total numebers on Die}}
-      \end{align}
-      \begin{align}
-        \therefore \pr{Y=1} = \frac{3}{6} = \frac{1}{2}
+      \pr{Y=Odd} = \pr{Y = 1} + \pr{Y = 3} + \pr{Y = 5} = \frac{1}{2}
       \end{align}
     Hence, the statement is true.
 \end{enumerate} 
@@ -366,4 +363,7 @@ CS22BTECH11009
 %\numberwithin{equation}{enumi}
 
 \end{document}
+
+
+
 
