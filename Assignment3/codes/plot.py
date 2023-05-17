@@ -10,13 +10,13 @@ p = 0.5
 experiment=np.zeros(4)
 actual=np.zeros(4)
 data_binom = binom.rvs(n,p,size=simlen)  #Simulating the event of jumping 10 hurdles
-heads,stimulation_coin = np.unique(data_binom , return_counts= True)
-stimulation_coin = stimulation_coin/simlen
+heads,simulation_coin = np.unique(data_binom , return_counts= True)
+simulation_coin = simulation_coin/simlen
 
 
 dice_outcomes = uniform.rvs(loc=1, scale=6, size=simlen).astype(int)
-dice_out,stimulation_dice = np.unique(dice_outcomes , return_counts= True)
-stimulation_dice = stimulation_dice/simlen
+dice_out,simulation_dice = np.unique(dice_outcomes , return_counts= True)
+simulation_dice = simulation_dice/simlen
 
 
 actual[0] = binom.pmf(2,2,0.5)
@@ -24,10 +24,10 @@ actual[1] = binom.pmf(0,2,0.5)
 actual[2] = binom.pmf(1,2,0.5)
 actual[3] = 1/2
 
-experiment[0] = stimulation_coin[2]
-experiment[1] = stimulation_coin[0]
-experiment[2] = stimulation_coin[1]
-experiment[3] = stimulation_dice[0] + stimulation_dice[2] + stimulation_dice[4]
+experiment[0] = simulation_coin[2]
+experiment[1] = simulation_coin[0]
+experiment[2] = simulation_coin[1]
+experiment[3] = simulation_dice[0] + simulation_dice[2] + simulation_dice[4]
 
 plt.figure(figsize=(16,10))
 plt.xlabel('X')
@@ -46,7 +46,7 @@ plt.xlabel('Y')
 plt.ylabel('Probabilities')
 plt.ylim(0.15 , 0.17)
 plt.xlim(-1, 7)
-plt.stem([1,3,5] , [stimulation_dice[0],stimulation_dice[1],stimulation_dice[2]] , markerfmt = 'ro' , linefmt = 'b' , basefmt = 'g--' , label = 'Simulation')
+plt.stem([1,3,5] , [simulation_dice[0],simulation_dice[1],simulation_dice[2]] , markerfmt = 'ro' , linefmt = 'b' , basefmt = 'g--' , label = 'Simulation')
 plt.plot([1,3,5] , [1/6,1/6,1/6] , 'yo' , label = 'Theoretical')
 plt.legend()
 plt.show()
